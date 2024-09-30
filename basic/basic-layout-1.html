@@ -8,8 +8,16 @@
     <style>
       body {
         display: grid;
+        grid-template-columns: 1fr 4fr;
+        grid-template-rows: 2fr 6fr 1fr;
+        
       }
-      /* Doe hier jouw ding! */
+      header,footer { 
+        grid-column: span 2;
+        
+      }
+      
+
     </style>
   </head>
   <body id="basic-layout-1">
@@ -17,5 +25,6 @@
     <nav><a href="../index.html">Terug naar het overzicht</a></nav>
     <main></main>
     <footer></footer>
+    
   </body>
 </html>
